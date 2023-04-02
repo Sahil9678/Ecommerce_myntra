@@ -1,0 +1,12 @@
+.productlist_container {
+    display: flex;
+    justify-content: center;
+}
+
+.productlist {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex: wrap;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,55 @@
+.sidebar_container {
+    display: flex;
+}
+
+.sidebar {
+    box-shadow: 14px 0px 23px 0 rgba(0, 0, 0, 0.05);
+    padding: 4% 3%;
+}
+
+.sidebar_filter_container {
+    display: flex;
+    padding: 14% 0;
+    justify-content: space-between;
+}
+
+.sidebar_filter_container label {
+    font-size: large;
+    font-weight: bold;
+    padding: 0 10% 0 0;
+}
+
+.sidebar_filter {
+    position: relative;
+    display: flex;
+    padding: 0 1%;
+}
+
+.sidebar_filter_range {
+    position: relative;
+}
+
+.sidebar_filter_dropdown {
+    width: 100%;
+}
+
+.sidebar_range {
+    position: relative;
+}
+
+.range-value {
+    position: absolute;
+    top: 100%;
+}
+
+.range-value span {
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    border-radius: 6px;
+    background: #03a9f4;
+}
