@@ -22,11 +22,11 @@ const Cartdetail = () => {
         <div className='cartdetail_container'>
             <div className='cartdetail_list'>
                 {
-                    cartdata.length > 0 && Object.entries(addedproductObj).map(([key, value]) => {
+                    cartdata.length > 0 ? Object.entries(addedproductObj).map(([key, value]) => {
                         return (
                             <Cardscomp elem={value} handlechange="" cardtype={'cart'} />
                         )
-                    })
+                    }) : <div className='cartdetail_list_error'><h1>No Item added</h1></div>
                 }
             </div>
         </div>
