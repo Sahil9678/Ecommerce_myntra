@@ -57,6 +57,7 @@ const SideBar = ({ children }) => {
                     <label>Color</label>
                     <select className='sidebar_filter_dropdown' onChange={(e) => handlefilter({ color: e.target.value })}>
                         <option value="none" selected disabled hidden>Select an Option</option>
+                        <option value="">none</option>
                         {
                             sampledata.length > 0 && sampledata.map(elem => {
                                 return (
